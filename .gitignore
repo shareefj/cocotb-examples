@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+grpc_unary/results.xml
+grpc_unary/sim_build
+grpc_unary/waves.vcd

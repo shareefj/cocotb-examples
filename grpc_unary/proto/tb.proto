@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service AddNumbers {
+    // Add service - adds two int32 numbers and returns result
+    rpc Add (AddOperands) returns (AddResult) {}
+}
+
+message AddOperands {
+    // int32 operands for addition
+    int32 ina = 1;
+    int32 inb = 2;
+}
+
+message AddResult {
+    // int32 result
+    int32 res = 1;
+}
